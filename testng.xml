@@ -4,6 +4,7 @@
     <test name="TestNG Test">
         <classes>
             <class name="Testrunner.TestNgRunner"/>
+            
        </classes>
     </test>
 </suite>
