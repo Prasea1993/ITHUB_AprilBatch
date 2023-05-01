@@ -19,8 +19,7 @@ on:
        default: TestSample
 
 
-env:
-  APP_DIR: ITHUB_AprilBatch
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -37,6 +36,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: mvn clean install -PSmokeTest
-        working-directory: ITHUB_AprilBatch
+        
 
     
